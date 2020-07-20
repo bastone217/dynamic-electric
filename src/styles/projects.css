@@ -1,0 +1,15 @@
+.proj-row{
+    height: 4px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.proj-col{
+    font-size: medium;
+    color: bisque;
+    background-color: navy;
+    border: 5px solid black;
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+  }
