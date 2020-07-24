@@ -5,8 +5,8 @@ import './App.css';
 import Home from './screens/home';
 import AboutUs from './screens/aboutUs';
 import ContactUs from './screens/contactUs';
+import Gallery from './screens/gallery';
 import Projects from './screens/projects';
-import Forms from './screens/forms';
 
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
           <Link className="col" to='/'>Home</Link>
           <Link className="col" to='/About-Us'>About Us</Link>
           <Link className="col" to='/Contact-Us'>Contact Us</Link>
-          <Link className="col" to="/Projects">Projects</Link> 
-          <Link className="col" to='/Forms'>Request Forms</Link>
+          <Link className="col" to="/Gallery">Gallery</Link> 
+          <Link className="col" to='Projects'>Projects</Link>
         </Nav>
         
       </Navbar>
@@ -29,8 +29,8 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route path='/About-Us' component={AboutUs} />
       <Route path='/Contact-Us' component={ContactUs} />
+      <Route path='/Gallery' component={Gallery} />
       <Route path='/Projects' component={Projects} />
-      <Route path='/Forms' component={Forms} />
     </div>
     </Router>
   );

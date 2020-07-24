@@ -1,102 +1,33 @@
 import React from 'react';
 import '../styles/projects.css'
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
-import img1 from '../photos/workpic2.jpg';
-import img2 from '../photos/workpic3.jpg';
-import img3 from '../photos/workpic4.jpg';
-import img4 from '../photos/workpic6.jpg';
-import img5 from '../photos/workpic7.jpg';
-import img6 from '../photos/workpic8.jpg';
-import img7 from '../photos/workpic12.jpg';
-import img8 from '../photos/Workpic16.jpg';
-import img9 from '../photos/workpic18.jpg';
-import img10 from '../photos/workpic19.jpg';
-import img11 from '../photos/lamppost.jpg';
-import img12 from '../photos/new14.jpg'
 
-
-const slideImages = [
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12
-];
-
-const Projects = () => {
-    return (
-      <div>
-        <Slide>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-             
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
-              
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
-              
-            </div>
-          </div>
+const Projects = () =>(
+   
+    <div>
+        <div className='project-row'>
+            <p className='grid-item1'></p>
+            <p className='grid-item1'></p>
+            <p className='grid-item1'></p>
+            <p className='grid-item1'></p>
+        </div>
+        <div className='grid-container'>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>     
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+            <p className='grid-item'>This is a test</p>
+        </div>
          
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[6]})`}}>
-             
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[7]})`}}>
-             
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[8]})`}}>
-             
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[9]})`}}>
-             
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[10]})`}}>
-             
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[11]})`}}>
-             
-            </div>
-          </div>
-          
-          
-         </Slide>
-        <p>Bla bal bla.</p>
-      </div>
-    )
-};
+    </div>
+
+);
 
 
 export default Projects;
