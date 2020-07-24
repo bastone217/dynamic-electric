@@ -1,0 +1,8 @@
+span{
+    color:blue;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+}
