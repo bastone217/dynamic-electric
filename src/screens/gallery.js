@@ -17,7 +17,7 @@ import img12 from '../photos/new14.jpg';
 import img13 from '../photos/wp4.jpg';
 import img14 from '../photos/wp5.jpg';
 import img15 from '../photos/wp1.jpg';
-import img16 from '../photos/wp2.jpg';
+import img16 from '../photos/wp21.jpg';
 import img17 from '../photos/wp3.jpg';
 import img18 from '../photos/wp6.jpg'
 
@@ -39,7 +39,8 @@ const slideImages = [
   img15,
   img16,
   img17,
-  img18
+  img18,
+  
 ];
 
 const Gallery = () => {
@@ -135,9 +136,12 @@ const Gallery = () => {
              
             </div>
           </div>
-                
+                         
          </Slide>
-        <p>Bla bal bla.</p>
+         <div className='gallery-row'>
+            <p className='gallery-grid-item1'></p>
+            <p className='gallery-grid-item1'></p>
+        </div>
       </div>
     )
 };

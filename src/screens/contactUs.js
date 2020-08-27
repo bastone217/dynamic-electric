@@ -20,6 +20,15 @@ const ContactUs = () =>(
         <h3 className='contact-row'>Address</h3>
         <p className='contact-row'> 3005 N. Buhach Road</p>
         <p className='contact-row'> Atwater, CA, 95301</p>
+       
+        <div className='project-row'>
+            <p className='grid-item1'></p>
+            <p className='grid-item1'></p>
+        </div>
+
+        <h3 className='contact-row1'>Want to work for our company? Send us your resume at: Office@dynamicelectrical.org</h3>
+        <p className='contact-row1'> </p>
+        
     </div>
 
 );

@@ -20,7 +20,6 @@ const AboutUs = () =>(
          <ul>
              <li>Aluminum Wiring Replacement</li>
              <li>Electrical Safety Inspections</li>
-             <li>Home Generator Installation and Repair</li>
              <li>Electrical Wiring Repairs</li>
              <li>Lighting Installations</li>
              <li>Security and Landscape Lighting</li>
@@ -33,7 +32,6 @@ const AboutUs = () =>(
 
          <h4>Some of the specific commercial electrical services we provide include:</h4>
          <ul>
-             <li>Electrical Distribution Systems</li>
              <li>Electrical Distribution Systems</li>
              <li>HVAC Control</li>
              <li>Lighting and Dimming Systems</li>
