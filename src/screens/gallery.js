@@ -17,9 +17,8 @@ import img12 from '../photos/new14.jpg';
 import img13 from '../photos/wp4.jpg';
 import img14 from '../photos/wp5.jpg';
 import img15 from '../photos/wp1.jpg';
-import img16 from '../photos/wp21.jpg';
-import img17 from '../photos/wp3.jpg';
-import img18 from '../photos/wp6.jpg'
+import img16 from '../photos/wp3.jpg';
+import img17 from '../photos/wp6.jpg'
 
 const slideImages = [
   img1,
@@ -39,7 +38,6 @@ const slideImages = [
   img15,
   img16,
   img17,
-  img18,
   
 ];
 
@@ -131,11 +129,7 @@ const Gallery = () => {
              
             </div>
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[17]})`}}>
-             
-            </div>
-          </div>
+         
                          
          </Slide>
          <div className='gallery-row'>
