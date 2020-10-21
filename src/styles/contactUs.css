@@ -1,0 +1,13 @@
+.contact-us{
+    color:blue;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: center;
+}
+.contact-row1{
+    color: rgb(53, 53, 102);
+    display: flex;
+    justify-content: center;
+}
