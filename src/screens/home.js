@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/home.css"
 import home from '../photos/homepage.jpg';
-import home1 from '../photos/homepage2.jpg';
+import home1 from '../photos/newhomepage2.jpg'; //need to fix photo
 import home2 from '../photos/homepage5.jpg';
 import home3 from '../photos/homepage4.jpg';
 

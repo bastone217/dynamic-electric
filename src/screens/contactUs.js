@@ -7,7 +7,7 @@ const ContactUs = () =>(
          <h3 className='contact-row'> Bid/Estimates </h3>
          <p className='contact-row'> Phone:<span className="contact-us"> (209)-596-5419</span></p>
          <p className='contact-row'> Fax: <span className="contact-us">(209)-580-6118</span></p>
-         <p className='contact-row'> Email: Patrick@dynamicelectrical.org</p>
+         <p className='contact-row'> Email: Estimating@dynamicelectrical.org</p>
          <i className='contact-row'> Patrick Anderson: President </i>
          
          <h3 className='contact-row'> Office </h3>
