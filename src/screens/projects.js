@@ -8,7 +8,7 @@ const Projects = () =>(
             <p className='grid-item1'> Here's a sample of the various projects we have worked on through out the years </p>
         </div>
         <div className='grid-container'>
-            <p className='grid-item'><span className='projects'>Clovis Well 11A and Motor Improvments  </span>Owner: City of Clovis <br></br>Current</p>
+            <p className='grid-item'><span className='projects'>Clovis Well 11A and Motor Improvements </span> Owner: City of Clovis <br></br>Current</p>
             <p className='grid-item'><span className='projects'>Island Elementary Kindergarten Classroom</span>Owner: Island Elementary School District<br></br>Current</p>
             <p className='grid-item'><span className='projects'>SCCCD BoardRoom Fulton Building  </span>Owner: State Center Community College District <br></br>Current</p>
             <p className='grid-item'><span className='projects'>CSU Stanislaus Parking Lot Upgrades </span>Owner: CSU Stanislaus <br></br>Current</p>

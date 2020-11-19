@@ -5,15 +5,15 @@ const ContactUs = () =>(
    
     <div className='contact'>
          <h3 className='contact-row'> Bid/Estimates </h3>
-         <p className='contact-row'> Phone:<span className="contact-us"> (209)-596-5419</span></p>
-         <p className='contact-row'> Fax: <span className="contact-us">(209)-580-6118</span></p>
+         <p className='contact-row'> Phone: <span className="contact-us"> (209)-596-5419</span></p>
+         <p className='contact-row'> Fax: <span className="contact-us"> (209)-580-6118</span></p>
          <p className='contact-row'> Email: Estimating@dynamicelectrical.org</p>
          <i className='contact-row'> Patrick Anderson: President </i>
          
          <h3 className='contact-row'> Office </h3>
          <p className='contact-row'> Office Hours: 8AM - 5PM PDT Mon.-Fri.</p>
-         <p className='contact-row'> Phone: <span className="contact-us">(740)-579-2994</span></p>
-         <p className='contact-row'> Fax: <span className="contact-us">(209)-580-6118</span></p>
+         <p className='contact-row'> Phone: <span className="contact-us"> (740)-579-2994</span></p>
+         <p className='contact-row'> Fax: <span className="contact-us"> (209)-580-6118</span></p>
          <p className='contact-row'> Email: Office@dynamicelectrical.org</p>
          <i className='contact-row'> Rhonda Stone: Office Manager </i>
 
