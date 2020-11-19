@@ -53,7 +53,7 @@ const AboutUs = () =>(
              <li>UPS Systems</li>
          </ul>
 
-         <h3><a href='dynamicelectrical.net/Contact-Us'>Contact Us</a> today to discuss how we can help you to improve, repair or install your commercial electrical system.</h3>
+         <h3><a href='/Contact-Us'>Contact Us</a> today to discuss how we can help you to improve, repair or install your commercial electrical system.</h3>
 
     </div>
 
